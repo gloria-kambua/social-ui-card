@@ -27,15 +27,16 @@ body {
   transition: background-position 0.5s ease-out;
 
 }
-.card:hover {
+.social-card:hover {
   background-position: left;
 }
-.hidden-text{
+
+.social-card:hover>.hidden-text {
+  display:block;
+}
+.social-card:hover>.text-on-image {
   display: none;
 }
-.card:hover>.hidden-text {
-  display: block;
-}
-.card:hover>.text-on-image {
+.hidden-text{
   display: none;
 }
