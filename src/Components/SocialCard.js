@@ -3,9 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import profile from './profile-image.jpg'
-// import '/Assets/Styles/myStyles.scss'
-import './myStyles.scss';
+import '../Assets/Styles/myStyles.scss'
+import profile from '../Assets/Images/profile-picture.jpg'
 import { FaGithubAlt,FaTwitterSquare } from 'react-icons/fa';
 import SocialCardContent from './SocialCardContent';
 
