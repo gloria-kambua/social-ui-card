@@ -1,0 +1,41 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  display: flex;
+  justify-content: center;
+  }
+  .social-card{
+    width: 24rem;
+    background: linear-gradient(to left, teal 50%, #26282b 50%);
+    background: linear-gradient(to left, teal 50%, #26282b 50%);
+    color: #fff;
+
+  }
+.card-body{
+  background: black;
+}
+.social-card:hover {
+  background-position: left;
+  color: #fff;
+}
+.card {
+  background-size: 200%;
+  background-position: right;
+  transition: background-position 0.5s ease-out;
+
+}
+.card:hover {
+  background-position: left;
+}
+.hidden-text{
+  display: none;
+}
+.card:hover>.hidden-text {
+  display: block;
+}
+.card:hover>.text-on-image {
+  display: none;
+}
